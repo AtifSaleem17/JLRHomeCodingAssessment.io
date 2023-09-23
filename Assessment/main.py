@@ -40,7 +40,7 @@ def best_performances():
                             performances[constructor][3] = season
 
             except Exception as e:
-                print("ERROR: ", e.args[0], "-->", constructor.title(), "'s data not found  season ", season)
+                print("ERROR: ", e.args[0], "-->", constructor.title(), "'s data not found for season ", season)
 
     return performances
 
